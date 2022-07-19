@@ -54,7 +54,7 @@ class ClassForm extends Component {
           </button>
         </form>
 
-        {/* {this.state.students.map((student, index) => {
+        {this.state.students.map((student, index) => {
           return (
             <div key={index}>
               <h1>name:{student.name}</h1>
@@ -63,7 +63,7 @@ class ClassForm extends Component {
               <hr />
             </div>
           );
-        })} */}
+        })}
       </>
     );
   }
